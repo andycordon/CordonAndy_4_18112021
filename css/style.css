@@ -6,27 +6,23 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
-a,
-button {
+la-chouette-agence-banniere.jpg
+a,button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-
 a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    background: #FFFFFF url("../img/pageload-spinner.gif") no-repeat center center;
 }
-
 .bloc {
     width: 100%;
     clear: both;
@@ -38,48 +34,31 @@ a:hover {
     background-size: cover;
     position: relative;
 }
-
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
 }
-
 .bloc-lg {
     padding: 100px 50px;
 }
-
 .bloc-md {
     padding: 50px;
 }
-
 .bloc-sm {
     padding: 20px 50px;
 }
-
-.bg-center,
-.bg-l-edge,
-.bg-r-edge,
-.bg-t-edge,
-.bg-b-edge,
-.bg-tl-edge,
-.bg-bl-edge,
-.bg-tr-edge,
-.bg-br-edge,
-.bg-repeat {
+.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat {
     -webkit-background-size: auto!important;
     -moz-background-size: auto!important;
     -o-background-size: auto!important;
     background-size: auto!important;
 }
-
 .bg-repeat {
     background: repeat;
 }
-
 .bg-t-edge {
     background: top no-repeat;
 }
-
 .bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
@@ -89,133 +68,73 @@ a:hover {
     left: 0;
     right: 0;
 }
-
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("../img/texture-paper.png");
     background-size: 280px 280px;
 }
-
 .b-parallax {
     background-attachment: fixed;
 }
-
 .d-bloc {
     color: rgba(255, 255, 255, .7);
 }
-
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
 }
-
-.d-bloc .icon-round,
-.d-bloc .icon-square,
-.d-bloc .icon-rounded,
-.d-bloc .icon-semi-rounded-a,
-.d-bloc .icon-semi-rounded-b {
+.d-bloc .icon-round,.d-bloc .icon-square,.d-bloc .icon-rounded,.d-bloc .icon-semi-rounded-a,.d-bloc .icon-semi-rounded-b {
     border-color: rgba(255, 255, 255, .9);
 }
-
 .d-bloc .divider-h span {
     border-color: rgba(255, 255, 255, .2);
 }
-
-.d-bloc .a-btn,
-.d-bloc .navbar a,
-.d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
-.d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
-.d-bloc h1 a,
-.d-bloc h2 a,
-.d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
-.d-bloc p a {
+.d-bloc .a-btn,.d-bloc .navbar a,.d-bloc .navbar-brand,.d-bloc a .icon-sm,.d-bloc a .icon-md,.d-bloc a .icon-lg,.d-bloc a .icon-xl,.d-bloc h1 a,.d-bloc h2 a,.d-bloc h3 a,.d-bloc h4 a,.d-bloc h5 a,.d-bloc h6 a,.d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
-
-.d-bloc .a-btn:hover,
-.d-bloc .navbar a:hover,
-.d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
-.d-bloc a:hover .icon-lg,
-.d-bloc a:hover .icon-xl,
-.d-bloc h1 a:hover,
-.d-bloc h2 a:hover,
-.d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
-.d-bloc p a:hover {
+.d-bloc .a-btn:hover,.d-bloc .navbar a:hover,.d-bloc .navbar-brand:hover,.d-bloc a:hover .icon-sm,.d-bloc a:hover .icon-md,.d-bloc a:hover .icon-lg,.d-bloc a:hover .icon-xl,.d-bloc h1 a:hover,.d-bloc h2 a:hover,.d-bloc h3 a:hover,.d-bloc h4 a:hover,.d-bloc h5 a:hover,.d-bloc h6 a:hover,.d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
 }
-
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
-
-.d-bloc .btn-wire,
-.d-bloc .btn-wire:hover {
+.d-bloc .btn-wire,.d-bloc .btn-wire:hover {
     color: rgba(255, 255, 255, 1);
     border-color: rgba(255, 255, 255, 1);
 }
-
 .d-bloc .panel {
     color: rgba(0, 0, 0, .5);
 }
-
 .d-bloc .panel button:hover {
     color: rgba(0, 0, 0, .7);
 }
-
 .d-bloc .panel icon {
     border-color: rgba(0, 0, 0, .7);
 }
-
 .d-bloc .panel .divider-h span {
     border-color: rgba(0, 0, 0, .1);
 }
-
 .d-bloc .panel .a-btn {
     color: rgba(0, 0, 0, .6);
 }
-
 .d-bloc .panel .a-btn:hover {
     color: rgba(0, 0, 0, 1);
 }
-
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover {
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
 }
-
-.d-bloc .panel,
-.l-bloc {
+.d-bloc .panel,.l-bloc {
     color: rgba(0, 0, 0, .5);
 }
-
-.d-bloc .panel button:hover,
-.l-bloc button:hover {
+.d-bloc .panel button:hover,.l-bloc button:hover {
     color: rgba(0, 0, 0, .7);
-}
-
-.l-bloc .icon-round,
-.l-bloc .icon-square,
-.l-bloc .icon-rounded,
-.l-bloc .icon-semi-rounded-a,
-.l-bloc .icon-semi-rounded-b {
+}.l-bloc .icon-round,.l-bloc .icon-square,.l-bloc .icon-rounded,.l-bloc .icon-semi-rounded-a,.l-bloc .icon-semi-rounded-b {
     border-color: rgba(0, 0, 0, .7);
 }
-
 .d-bloc .panel .divider-h span,
 .l-bloc .divider-h span {
     border-color: rgba(0, 0, 0, .1);
 }
-
 .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
 .l-bloc .navbar a,
@@ -233,7 +152,6 @@ a:hover {
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
 }
-
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
 .l-bloc .navbar a:hover,
@@ -251,11 +169,9 @@ a:hover {
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
 }
-
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
 }
-
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover,
 .l-bloc .btn-wire,
@@ -263,35 +179,28 @@ a:hover {
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
 }
-
 .voffset {
     margin-top: 30px;
 }
-
 .voffset-lg {
     margin-top: 80px;
 }
-
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
 }
-
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
 }
-
 #bloc-1-hero h1 {
     font-size: 32px;
 }
-
 .navbar {
     margin-bottom: 0;
     z-index: 1;
 }
-
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
@@ -300,68 +209,55 @@ a:hover {
     font-weight: 600;
     line-height: 44px;
 }
-
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
 }
-
 .navbar-brand img[src$=svg] {
     min-width: 100px;
 }
-
 .nav-center .navbar-brand img {
     margin: 0;
 }
-
 .navbar .nav {
     padding-top: 2px;
     margin-right: -16px;
     float: right;
     z-index: 1;
 }
-
 .nav > li {
     float: left;
     margin-top: 4px;
     font-size: 16px;
 }
-
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
-
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
 }
-
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
 }
-
 .navbar-toggle:hover {
     background: transparent!important;
 }
-
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
     width: 26px;
 }
-
 .nav-invert .navbar .nav {
     float: left;
 }
-
 .nav-invert .navbar-header,
 .nav-invert .navbar-brand {
     float: right;
     position: relative;
     z-index: 2;
 }
-
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -402,22 +298,18 @@ a:hover {
         margin: 10px auto 0;
     }
 }
-
 .nav > li > .dropdown a {
     background: none!important;
     display: block;
     padding: 14px 15px;
 }
-
 nav .caret {
     margin: 0 5px;
 }
-
 .dropdown-menu .dropdown-menu {
     top: -8px;
     left: 100%;
 }
-
 .dropdown-menu .dropmenu-flow-right {
     top: 100%;
     left: 0;
@@ -425,7 +317,6 @@ nav .caret {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
-
 .dropdown-menu .dropdown span {
     border: 4px solid black;
     border-top-color: transparent;
@@ -810,19 +701,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("../img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("../img/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("../img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("../img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
