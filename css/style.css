@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     padding: 0;
@@ -5,6 +7,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    margin: auto;
 }
 .menuzone{
     display: flex;
@@ -24,6 +27,48 @@ body {
     margin:20px 30px;
     width: 100%;
 }
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+
+@media (min-width:768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.max-larg {
+    max-width: 1080px;
+}
+
+.flex-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-top {
+    margin-top: 30px;
+}
+
+.margin-real {
+
+    margin:80px 0 40px 0;
+}
+
+.margin-real2 {
+
+    margin:60px 0 40px 0;
+}
+
 la-chouette-agence-banniere.jpg
 a,button {
     transition: all .3s ease-in-out;
@@ -909,6 +954,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
     .bloc-tile-2 .container,
     .bloc-tile-3 .container,
     .bloc-tile-4 .container,
